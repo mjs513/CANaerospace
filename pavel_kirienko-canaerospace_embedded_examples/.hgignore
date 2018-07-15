@@ -1,0 +1,17 @@
+syntax: glob
+
+# build output
+*.o
+*.elf
+*.bin
+lib*.so
+lib*.so.*
+*.a
+.dep
+build
+
+# eclipse files
+.metadata/*
+.settings/*
+.project
+.cproject

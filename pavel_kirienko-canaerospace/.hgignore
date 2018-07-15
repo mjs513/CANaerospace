@@ -1,0 +1,16 @@
+# files to be ignored
+syntax: glob
+
+# build output
+*.o
+lib*.so
+lib*.a
+
+# eclipse files
+.metadata/*
+.settings/*
+.project
+.cproject
+
+# CMake generated
+*/build
